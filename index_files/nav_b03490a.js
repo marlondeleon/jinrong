@@ -1,0 +1,1 @@
+define("common:widget/nav/nav.js",function(n,e){e.init=function(){$(".nav-item > a").on("mouseenter",function(){$(this).parent().siblings().children(".member").hide(),$(this).next().show()}),$(".nav-item").on("mouseleave",function(){$(this).children(".member").hide()})}});
